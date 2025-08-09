@@ -7,31 +7,4 @@ Nepal is rapidly moving into the digital payments era. As of mid‑January 2025,
 
 This project explores a synthetic Nepal‑calibrated payments dataset (3 months, 20,000 rows). It demonstrates EDA, RFM segmentation, anomaly detection, and an interactive Streamlit dashboard.
 
-## Files
-- `data/Fintech-data-for-nepal.csv` — transaction data (20k rows)
-- `src/` — data processing and feature engineering
-- `notebooks/` — Jupyter notebooks for EDA, RFM, modeling
-- `streamlit_app.py` — interactive dashboard
-- `reports/` — exportable summaries
 
-## Quick start (local)
-```bash
-# create and activate venv (macOS / Linux)
-python3 -m venv venv
-source venv/bin/activate
-
-# or Windows PowerShell
-# python -m venv venv
-# .\venv\Scripts\Activate.ps1
-
-pip install --upgrade pip
-pip install -r requirements.txt
-
-# run the Streamlit dashboard
-streamlit run streamlit_app.py
-```
-
-## Next steps
-- Replace dataset with real anonymized data if available
-- Add SQL / database backend for larger data
-- Add unit tests for preprocessing functions
